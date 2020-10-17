@@ -57,8 +57,9 @@ def get_shoes(client):
 def add_price_record(sheet, shoe_id, website, price):
     today = date.today()
     current_date = today.strftime("%m/%d/%y")
+    current_date = str(current_date)
     row = [current_date, shoe_id, website, price]    
-    sheet.append_row(row)
+    sheet.append_row(row, 'USER_ENTERED')
 
 def get_all_prices():
     driver = create_driver()
