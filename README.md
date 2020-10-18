@@ -16,8 +16,8 @@ At the current moment the project uses two google sheets for data management. On
 * <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a>
 * <A href="https://selenium-python.readthedocs.io/">Selenium</a>
 * <a href="https://gspread.readthedocs.io/en/latest/">gspread</a>
-* <a href="[https://canvasjs.com/react-charts/](https://canvasjs.com/react-charts/)">React charts</a>
-* <a href="[https://reactjs.org/](https://reactjs.org/)">React</a>
+* <a href="https://canvasjs.com/react-charts/">React charts</a>
+* <a href="https://reactjs.org/">React</a>
 
 ## Contact
 * <a href="https://www.linkedin.com/in/alexander-gray-42b439193/">Linkedin</a>
