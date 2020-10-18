@@ -24,10 +24,15 @@ def scrape(driver, url):
     return soup
 
 def get_price_from_goat_soup(soup):
-    return soup.find('span', {'class': "ProductTitlePaneActions__BuyPrice-l1sjea-4 fZVosI"}).get_text()
+    price = soup.find('span', {'class': "ProductTitlePaneActions__BuyPrice-l1sjea-4 fZVosI"}).get_text()
+    fix = ''.join(e for e in price if e.isalnum())
+    return fix
 
 def get_price_from_stockx_soup(soup):
-    return soup.find("div", {"class": "en-us stat-value stat-small"}).get_text()
+    price =  soup.find("div", {"class": "en-us stat-value stat-small"}).get_text()
+    fix = ''.join(e for e in price if e.isalnum())
+    return fix
+
 
 def create_driver(): 
     # selenium options
