@@ -10,7 +10,7 @@ At the current moment the project uses two google sheets for data management. On
 
 ### Deployment
 
-* <a href=" [https://shoe-scraper.herokuapp.com/](https://shoe-scraper.herokuapp.com/)">Heroku App<a/>
+* <a href="[https://shoe-scraper.herokuapp.com/](https://shoe-scraper.herokuapp.com/)">Heroku App<a/>
 
 ### Built using
 * <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a>
