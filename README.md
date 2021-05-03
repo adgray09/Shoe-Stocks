@@ -2,11 +2,15 @@
 Web scraper built for logging shoe prices daily 
 ## Table of Contents
 * [About the project](#about-the-project)
+  * [Demo](#demo)
   * [Built using](#built-using)
   * [Deployment](#deployment)
 * [Contact](#contact)
 ## About the project
 At the current moment the project uses two google sheets for data management. One has the shoe name, ID, and url and the other has the prices. Once I run the program I pull the shoe price data from the url and using gspread I update my second sheet with the shoe price. 
+
+## Demo
+Youtube video found <a href="https://www.youtube.com/watch?v=GihhXVsdMpw">here</a>
 
 ### Deployment
 
